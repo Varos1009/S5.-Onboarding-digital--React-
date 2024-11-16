@@ -14,7 +14,7 @@ code {
 
 .card {
   width: 25rem;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .image-wrapper {
