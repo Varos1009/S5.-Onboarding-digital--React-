@@ -11,7 +11,7 @@ function App() {
   ];
 
   const [step, setStep] = useState(0);
-  const [animation, setAnimation] = useState('');
+  const [animation, setAnimation] = useState('slide-in-right');
 
   const changeStep = (newStep) => {
     if(newStep > step){
@@ -30,7 +30,6 @@ function App() {
   };
   const nextStep = () => {
     if (step < tutorialData.length - 1) {
-      setStep(step + 1);
       setAnimation('slide-out-left');
       setTimeout(() => {
         setStep(step + 1);
@@ -40,7 +39,6 @@ function App() {
   }
   const prevStep = () => {
     if (step > 0) {
-      setStep(step - 1);
       setAnimation('slide-out-right');
       setTimeout(() => {
         setStep(step - 1);

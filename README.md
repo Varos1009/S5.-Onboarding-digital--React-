@@ -23,3 +23,8 @@ Este proyecto es una aplicación interactiva desarrollada en React que guía al 
 
    ```bash
    npm install
+
+2. Ejecutar la Aplicación:
+
+   ```bash
+   npm start

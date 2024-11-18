@@ -14,7 +14,6 @@ code {
 
 .card {
   width: 25rem;
-  transition: transform 0.3s ease-in-out;
 }
 
 .image-wrapper {
@@ -72,14 +71,10 @@ code {
 }
 
 .slide-in-right  {
-  transform: translateX(100%);
-  opacity: 0;
   animation: slide-in 0.3s forwards;
 }
 
 .slide-in-left  {
-  transform: translateX(-100%);
-  opacity: 0;
   animation: slide-in-left 0.3s forwards;
 }
 
